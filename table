@@ -1,0 +1,7 @@
+CREATE table movies26(no INT,movie_name varchar(200),actor varchar(100),actress varchar(100), year_of_realease INT, director_name varchar(100));
+insert into movies26(no ,movie_name,actor,actress, year_of_realease, director_name)
+values(1,'Atrangi Re','Akshay Kumar','sara ali khan',2021,'Aanand L. Rai');
+insert into movies26(no ,movie_name,actor,actress, year_of_realease, director_name)
+values(2,'Badhaai Do','Rajkummar Rao','Bhumi Pednekar',2022,'Harshavardhan Kulkarni');
+insert into movies26 values(3,'Ek Villain','Sidharth Malhotra','Shraddha Kapoor ',2014,'Mohit Suri ');
+select * from movies26
